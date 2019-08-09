@@ -22,7 +22,7 @@ Some of the passive collectors will require your API keys or similar credentials
 
 Shodan
 
-    aquatone-discover --set-key shodan o1hyw8pv59vSVjrZU3Qaz6ZQqgM91ihQ
+    aquatone-discover --set-key shodan xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Virustotal
 
