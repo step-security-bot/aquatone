@@ -233,9 +233,7 @@ If you don't want Aquatone to create files in the current working directory, you
 
     cat /root/aquatone/domain.com/hosts.txt | aquatone -out /root/aquatone/./aquatone/example.com
 
-It is also possible to set a permanent default output destination by defining an environment variable:
 
-    export AQUATONE_OUT_PATH=/root/aquatone/aquatone"
 
 
 ### Specifying ports to scan
@@ -253,7 +251,7 @@ Aquatone also supports aliases of built-in port lists to make it easier for you:
 
 **Example:**
 
-    $ cat /root/aquatone/domain.com/hosts.txt | /root/aquatone/./aquatone -ports large
+    cat /root/aquatone/domain.com/hosts.txt | /root/aquatone/./aquatone -ports large
 
 
 ### Usage examples
@@ -288,7 +286,7 @@ There are plenty of other DNS enumeration tools out there and Aquatone should wo
 
 Aquatone can make a report on hosts scanned with the [Nmap](https://nmap.org/) or [Masscan](https://github.com/robertdavidgraham/masscan) portscanner. Simply feed Aquatone the XML output and give it the `-nmap` flag to tell it to parse the input as Nmap/Masscan XML:
 
-    $ cat /root/aquatone/domain.com/scan.xml | /root/aquatone/./aquatone -nmap
+    cat /root/aquatone/domain.com/scan.xml | /root/aquatone/./aquatone -nmap
 
 #
 #
