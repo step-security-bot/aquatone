@@ -6,16 +6,17 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 
 Pre-Requisite: Install [Google Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) browser -- **Note:** Google Chrome is currently giving unreliable results when running in *headless* mode, so it is recommended to install Chromium for the best results.
 
-1. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system.
-2. Install with gem
+1. Install with gem in Kali or related linux distros.
   
         gem install aquatone
+
+2. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
 
 3. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
 
     
     
-## Aquatone Collectors API keys
+## Aquatone Collectors API keys (Optional but extremly recommended)
 
 Some of the passive collectors will require your API keys or similar credentials in order to work. Setting these values can be done with the --set-key option:
 
