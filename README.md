@@ -33,17 +33,17 @@ Virustotal
 
     aquatone-discover --set-key virustotal xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     
-The key requirements for the Censys collector are: censys_id and censys_secret, so it would be:
+Censys key requirements are: censys_id and censys_secret, so it would be:
 
     aquatone-discover --set-key censys_id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     aquatone-discover --set-key censys_secret xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-Key requirements for PassiveTotal are: passivetotal_key and passivetotal_secret, so:
+PassiveTotal key requirements are: passivetotal_key and passivetotal_secret, so:
 
     aquatone-discover --set-key passivetotal_key youremail@example.com
     aquatone-discover --set-key passivetotal_secret xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     
-Key requirements for Riddle are:    
+Riddle key requirements are:    
     
     riddler_username: %EMAIL% 
     riddler_password: %ACCOUNT PASSWORD% 
@@ -242,7 +242,7 @@ It is also possible to set a permanent default output destination by defining an
 
 Be default, Aquatone will scan target hosts with a small list of commonly used HTTP ports: 80, 443, 8000, 8080 and 8443. You can change this to your own list of ports with the `-ports` flag:
 
-    cat hosts.txt | /root/aquatone/./aquatone -ports 80,443,3000,3001
+    cat /root/aquatone/domain.com/hosts.txt | /root/aquatone/./aquatone -ports 80,443,3000,3001
 
 Aquatone also supports aliases of built-in port lists to make it easier for you:
 
