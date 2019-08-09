@@ -296,7 +296,7 @@ If you for some reason don't trust the pre-compiled binaries, you can also compi
 
 ### Credits
 
-https://github.com/michenriksen/aquatone @michenriksen
+https://github.com/michenriksen/aquatone
 
 - Thanks to [EdOverflow](https://twitter.com/EdOverflow) for the [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz/) project which Aquatone's domain takeover capability is based on.
 - Thanks to [Elbert Alias](https://github.com/AliasIO) for the [Wappalyzer](https://github.com/AliasIO/Wappalyzer) project's technology fingerprints which Aquatone's technology fingerprinting capability is based on.
