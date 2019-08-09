@@ -158,9 +158,7 @@ report/ Contains report files in HTML displaying the gathered information for ea
 #
 #
 #
-### Compiling the source code
 
-If you for some reason don't trust the pre-compiled binaries, you can also compile the code yourself. **You are on your own if you want to do this. I do not support compiling problems. Good luck with it!**
 
 ## Usage
 
@@ -287,8 +285,18 @@ Aquatone can make a report on hosts scanned with the [Nmap](https://nmap.org/) o
 
     $ cat /root/aquatone/domain.com/scan.xml | /root/aquatone/./aquatone -nmap
 
+#
+#
+#
+#
+
+### Compiling the source code
+
+If you for some reason don't trust the pre-compiled binaries, you can also compile the code yourself. **You are on your own if you want to do this. I do not support compiling problems. Good luck with it!**
 
 ### Credits
+
+https://github.com/michenriksen/aquatone @michenriksen
 
 - Thanks to [EdOverflow](https://twitter.com/EdOverflow) for the [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz/) project which Aquatone's domain takeover capability is based on.
 - Thanks to [Elbert Alias](https://github.com/AliasIO) for the [Wappalyzer](https://github.com/AliasIO/Wappalyzer) project's technology fingerprints which Aquatone's technology fingerprinting capability is based on.
