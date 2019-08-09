@@ -59,7 +59,7 @@ IPs, hostnames and domain names in the data will undergo scanning for ports that
 
 **Example:**
 
-    $ cat targets.txt | aquatone
+    cat /root/aquatone/domain.com/hosts.txt | /root/aquatone/./aquatone
 
 ### Output
 
@@ -82,14 +82,14 @@ If you don't want Aquatone to create files in the current working directory, you
 
 It is also possible to set a permanent default output destination by defining an environment variable:
 
-    export AQUATONE_OUT_PATH="~/aquatone"
+    export AQUATONE_OUT_PATH=/root/aquatone/aquatone"
 
 
 ### Specifying ports to scan
 
 Be default, Aquatone will scan target hosts with a small list of commonly used HTTP ports: 80, 443, 8000, 8080 and 8443. You can change this to your own list of ports with the `-ports` flag:
 
-    $ cat hosts.txt | aquatone -ports 80,443,3000,3001
+    $ cat hosts.txt | /root/aquatone/./aquatone -ports 80,443,3000,3001
 
 Aquatone also supports aliases of built-in port lists to make it easier for you:
 
@@ -100,7 +100,7 @@ Aquatone also supports aliases of built-in port lists to make it easier for you:
 
 **Example:**
 
-    $ cat hosts.txt | aquatone -ports large
+    $ cat hosts.txt | /root/aquatone/./aquatone -ports large
 
 
 ### Usage examples
@@ -120,7 +120,7 @@ am.yahoo.com
 prd-vipui-01.infra.corp.gq1.yahoo.com
 cp103.mail.ir2.yahoo.com
 prd-vipui-01.infra.corp.bf1.yahoo.com
-$ cat hosts.txt | aquatone
+$ cat hosts.txt | /root/aquatone/./aquatone
 ```
 
 There are plenty of other DNS enumeration tools out there and Aquatone should work just as well with any other tool:
@@ -135,7 +135,7 @@ There are plenty of other DNS enumeration tools out there and Aquatone should wo
 
 Aquatone can make a report on hosts scanned with the [Nmap](https://nmap.org/) or [Masscan](https://github.com/robertdavidgraham/masscan) portscanner. Simply feed Aquatone the XML output and give it the `-nmap` flag to tell it to parse the input as Nmap/Masscan XML:
 
-    $ cat scan.xml | aquatone -nmap
+    $ cat scan.xml | /root/aquatone/./aquatone -nmap
 
 #
 #
