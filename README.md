@@ -4,7 +4,7 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 
 ## Installation
 
-Pre-Requisite: Install [Google Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) browser -- **Note:** Google Chrome is currently giving unreliable results when running in *headless* mode, so it is recommended to install Chromium for the best results.
+Pre-Requisite: [Google Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) browser -- **Note:** Google Chrome is currently giving unreliable results when running in *headless* mode, so it is recommended to install Chromium for the best results.
 
 1. Install with gem in Kali or related linux distros.
   
