@@ -13,10 +13,15 @@ Pre-Requisite: [Google Chrome](https://www.google.com/chrome/) or [Chromium](htt
 2. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
 
 3. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
+#
+#
+#
+#
+    
+    
+## Collectors API keys
 
-    
-    
-## Aquatone Collectors API keys (Optional but extremely recommended)
+(Optional but extremely recommended)
 
 Some of the passive collectors will require your API keys or similar credentials in order to work. Setting these values can be done with the --set-key option:
 
