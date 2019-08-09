@@ -137,15 +137,18 @@ Aquatone can make a report on hosts scanned with the [Nmap](https://nmap.org/) o
 
     $ cat scan.xml | aquatone -nmap
 
+#
+#
+#
 
-Install with gem
+## Install with gem
 
     gem install aquatone
     
 
-Usage
+### Usage
 
-Discovery
+## Discovery
 The first stage of an AQUATONE assessment is the discovery stage where subdomains are discovered on the target domain using open sources, services and the more common dictionary brute force approach:
 
     aquatone-discover --domain example.com
