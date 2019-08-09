@@ -145,6 +145,25 @@ Aquatone can make a report on hosts scanned with the [Nmap](https://nmap.org/) o
 
     gem install aquatone
     
+## API keys
+
+Some of the passive collectors will require your API keys or similar credentials in order to work. Setting these values can be done with the --set-key option:
+
+    aquatone-discover --set-key shodan o1hyw8pv59vSVjrZU3Qaz6ZQqgM91ihQ
+    aquatone-discover --set-key virustotal
+    
+The key requirements for the Censys collector are: censys_id and censys_secret, so it would be:
+
+    aquatone-discover --set-key censys_id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    aquatone-discover --set-key censys_secret xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Key requirements for PassiveTotal are: passivetotal_key and passivetotal_secret, so:
+
+    aquatone-discover --set-key passivetotal_key youremail@example.com
+    aquatone-discover --set-key passivetotal_secret xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+All keys will be saved in ~/aquatone/.keys.yml.
+    
 
 ### Usage
 
@@ -167,13 +186,6 @@ Hammering a DNS server with failing lookups can potentially be picked up by intr
     aquatone-discover --domain example.com --sleep 5 --jitter 30
 
 Please note that setting the --sleep option will force the thread count to one. The --jitter option will only be considered if the --sleep option has also been set.
-
-API keys
-Some of the passive collectors will require API keys or similar credentials in order to work. Setting these values can be done with the --set-key option:
-
-    aquatone-discover --set-key shodan o1hyw8pv59vSVjrZU3Qaz6ZQqgM91ihQ
-
-All keys will be saved in ~/aquatone/.keys.yml.
 
 ## Results
 When aquatone-discover is finished, it will create a hosts.txt file in the ~/aquatone/<domain> folder, so for a scan of example.com it would be located at ~/aquatone/example.com/hosts.txt. The format will be a comma-separated list of hostnames and their IP, for example:
