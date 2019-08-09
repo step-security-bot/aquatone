@@ -26,7 +26,7 @@ Shodan
 
 Virustotal
 
-    aquatone-discover --set-key virustotal
+    aquatone-discover --set-key virustotal xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     
 The key requirements for the Censys collector are: censys_id and censys_secret, so it would be:
 
