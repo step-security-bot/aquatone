@@ -78,7 +78,7 @@ The output can easily be zipped up and shared with others or archived.
 
 If you don't want Aquatone to create files in the current working directory, you can specify a different location with the `-out` flag:
 
-    $ cat hosts.txt | aquatone -out ~/aquatone/example.com
+    cat /root/aquatone/domain.com/hosts.txt | aquatone -out /root/aquatone/./aquatone/example.com
 
 It is also possible to set a permanent default output destination by defining an environment variable:
 
@@ -89,7 +89,7 @@ It is also possible to set a permanent default output destination by defining an
 
 Be default, Aquatone will scan target hosts with a small list of commonly used HTTP ports: 80, 443, 8000, 8080 and 8443. You can change this to your own list of ports with the `-ports` flag:
 
-    $ cat hosts.txt | /root/aquatone/./aquatone -ports 80,443,3000,3001
+    cat hosts.txt | /root/aquatone/./aquatone -ports 80,443,3000,3001
 
 Aquatone also supports aliases of built-in port lists to make it easier for you:
 
@@ -100,7 +100,7 @@ Aquatone also supports aliases of built-in port lists to make it easier for you:
 
 **Example:**
 
-    $ cat hosts.txt | /root/aquatone/./aquatone -ports large
+    $ cat /root/aquatone/domain.com/hosts.txt | /root/aquatone/./aquatone -ports large
 
 
 ### Usage examples
@@ -112,7 +112,7 @@ Aquatone is designed to play nicely with all kinds of tools. Here's some example
 [Amass](https://github.com/OWASP/Amass) is currently my preferred tool for enumerating DNS. It uses a bunch of OSINT sources as well as active brute-forcing and clever permutations to quickly identify hundreds, if not thousands, of subdomains on a  domain:
 
 ```bash
-$ amass -active -brute -o hosts.txt -d yahoo.com
+$ amass -active -brute -o /root/aquatone/domain.com/hosts.txt -d yahoo.com
 alerts.yahoo.com
 ads.yahoo.com
 am.yahoo.com
@@ -120,7 +120,7 @@ am.yahoo.com
 prd-vipui-01.infra.corp.gq1.yahoo.com
 cp103.mail.ir2.yahoo.com
 prd-vipui-01.infra.corp.bf1.yahoo.com
-$ cat hosts.txt | /root/aquatone/./aquatone
+cat /root/aquatone/domain.com/hosts.txt | /root/aquatone/./aquatone
 ```
 
 There are plenty of other DNS enumeration tools out there and Aquatone should work just as well with any other tool:
@@ -135,7 +135,7 @@ There are plenty of other DNS enumeration tools out there and Aquatone should wo
 
 Aquatone can make a report on hosts scanned with the [Nmap](https://nmap.org/) or [Masscan](https://github.com/robertdavidgraham/masscan) portscanner. Simply feed Aquatone the XML output and give it the `-nmap` flag to tell it to parse the input as Nmap/Masscan XML:
 
-    $ cat scan.xml | /root/aquatone/./aquatone -nmap
+    $ cat /root/aquatone/domain.com/scan.xml | /root/aquatone/./aquatone -nmap
 
 #
 #
@@ -145,11 +145,16 @@ Aquatone can make a report on hosts scanned with the [Nmap](https://nmap.org/) o
 
     gem install aquatone
     
-## API keys
+## Aquatone Collectors API keys
 
 Some of the passive collectors will require your API keys or similar credentials in order to work. Setting these values can be done with the --set-key option:
 
+Shodan
+
     aquatone-discover --set-key shodan o1hyw8pv59vSVjrZU3Qaz6ZQqgM91ihQ
+
+Virustotal
+
     aquatone-discover --set-key virustotal
     
 The key requirements for the Censys collector are: censys_id and censys_secret, so it would be:
@@ -161,6 +166,11 @@ Key requirements for PassiveTotal are: passivetotal_key and passivetotal_secret,
 
     aquatone-discover --set-key passivetotal_key youremail@example.com
     aquatone-discover --set-key passivetotal_secret xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    
+Key requirements for Riddle are:    
+    
+    riddler_username: %EMAIL% 
+    riddler_password: %ACCOUNT PASSWORD% 
 
 All keys will be saved in ~/aquatone/.keys.yml.
     
