@@ -16,7 +16,7 @@ Pre-Requisite: [Google Chrome](https://www.google.com/chrome/) or [Chromium](htt
 
     
     
-## Aquatone Collectors API keys (Optional but extremly recommended)
+## Aquatone Collectors API keys (Optional but extremely recommended)
 
 Some of the passive collectors will require your API keys or similar credentials in order to work. Setting these values can be done with the --set-key option:
 
