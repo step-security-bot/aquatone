@@ -258,9 +258,13 @@ Aquatone also supports aliases of built-in port lists to make it easier for you:
 
 Aquatone is designed to play nicely with all kinds of tools. Here's some examples:
 
-#### Amass DNS enumeration
+#### Amass Installation
 
-[Amass](https://github.com/OWASP/Amass) is currently my preferred tool for enumerating DNS. It uses a bunch of OSINT sources as well as active brute-forcing and clever permutations to quickly identify hundreds, if not thousands, of subdomains on a  domain:
+[Amass](https://github.com/4k4xs4pH1r3/Amass/blob/master/doc/install.md) 
+
+by [OWASP](https://github.com/OWASP) is currently my preferred tool for enumerating DNS. It uses a bunch of OSINT sources as well as active brute-forcing and clever permutations to quickly identify hundreds, if not thousands, of subdomains on a  domain:
+
+### Amass DNS enumeration
 
 ```bash
 $ amass -active -brute -o /root/aquatone/domain.com/hosts.txt -d yahoo.com
