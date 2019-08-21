@@ -8,7 +8,7 @@ Pre-Requisite: [Google Chrome](https://www.google.com/chrome/) or [Chromium](htt
 
         apt install chromium -y
 # or        
-        apt install chromium-browser -y
+        apt install chromium-browser chromium-browser-l10n -y
 
 1. Install with gem in Kali or related linux distros.
   
