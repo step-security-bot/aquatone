@@ -15,7 +15,7 @@ or
 
        https://gorails.com/setup/
 
-2.
+2. Install Aquatone
 
     gem install aquatone
 
