@@ -17,7 +17,7 @@ or
 
 2. Install Aquatone
 
-    gem install aquatone
+       gem install aquatone
 
 
 3. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
