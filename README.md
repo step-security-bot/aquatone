@@ -10,13 +10,18 @@ Pre-Requisite: [Google Chrome](https://www.google.com/chrome/) or [Chromium](htt
 # or        
         apt install chromium-browser chromium-browser-l10n -y
 
-1. Install with gem in Kali or related linux distros.
-  
+1. Install Ruby on Rails
+
+        https://gorails.com/setup/
+
+2.
+
         gem install aquatone
 
-2. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
 
-3. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
+3. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
+
+4. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
 #
 #
 #
