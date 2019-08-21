@@ -14,15 +14,19 @@ or
 1. Install Ruby on Rails
 
        https://gorails.com/setup/
+       
+2. Install Nokogiri       
 
-2. Install Aquatone
+       https://nokogiri.org/tutorials/installing_nokogiri.html
+       
+3. Install Aquatone
 
        gem install aquatone
 
 
-3. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
+4. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
 
-4. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
+5. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
 #
 #
 #
