@@ -13,11 +13,11 @@ or
 
 1. Install Ruby on Rails
 
-        https://gorails.com/setup/
+       https://gorails.com/setup/
 
 2.
 
-        gem install aquatone
+    gem install aquatone
 
 
 3. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
