@@ -297,9 +297,10 @@ There are plenty of other DNS enumeration tools out there and Aquatone should wo
 
 - [Sublist3r](https://github.com/4k4xs4pH1r3/Sublist3r)
 - [Subfinder](https://github.com/4k4xs4pH1r3/subfinder)
+- [Gobuster](https://github.com/4k4xs4pH1r3/gobuster)
 - [Knock](https://github.com/guelfoweb/knock)
 - [Fierce](https://www.aldeid.com/wiki/Fierce)
-- [Gobuster](https://github.com/OJ/gobuster)
+
 
 #### Nmap or Masscan
 
