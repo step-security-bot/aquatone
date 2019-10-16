@@ -282,7 +282,7 @@ by OWASP is currently my preferred tool for enumerating DNS. It uses a bunch of 
 ### Amass DNS enumeration
 
 ```bash
-$ amass -active -brute -o /root/aquatone/domain.com/hosts.txt -d yahoo.com
+$ amass enum -o /root/aquatone/domain.com/hosts.txt -d yahoo.com
 alerts.yahoo.com
 ads.yahoo.com
 am.yahoo.com
