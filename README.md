@@ -10,7 +10,7 @@ Pre-Requisite: NPM + [Google Chrome](https://www.google.com/chrome/) or [Chromiu
 # 
 or  
 
-        apt install chromium-browser chromium-browser-l10n -y
+        apt install npm chromium-browser chromium-browser-l10n -y
 
 1. Install Ruby on Rails
 
