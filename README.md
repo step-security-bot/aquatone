@@ -84,7 +84,7 @@ aquatone-discover will use 5 threads as default for concurrently performing DNS 
 
 Hammering a DNS server with failing lookups can potentially be picked up by intrusion detection systems, so if that is a concern for you, you can make aquatone-discover a bit more stealthy with the --sleep and --jitter options. --sleep accepts a number of seconds to sleep between each DNS lookup while --jitter accepts a percentage of the --sleep value to randomly add or subtract to or from the sleep interval in order to break the sleep pattern and make it less predictable.
 
-    aquatone-discover --domain example.com --sleep 5 --jitter 30
+    aquatone-discover --domain target.com --sleep 5 --jitter 30 --wordlist /usr/share/wordlists/dnsmap.txt
 
 Please note that setting the --sleep option will force the thread count to one. The --jitter option will only be considered if the --sleep option has also been set.
 
