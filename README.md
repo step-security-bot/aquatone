@@ -16,6 +16,14 @@ or
 
        https://gorails.com/setup/
        
+In case that this command fail
+
+    rbenv install 2.7.1
+    
+Execute this one to fix the error
+
+    cd /root/.rbenv/plugins/ruby-build && git pull && cd - && rbenv install 2.7.1
+       
 2. Install Nokogiri       
 
        https://nokogiri.org/tutorials/installing_nokogiri.html
