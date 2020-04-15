@@ -28,14 +28,15 @@ Execute this one to fix the error
 
        https://nokogiri.org/tutorials/installing_nokogiri.html
        
-3. Install Aquatone
+3. Install Aquatone Gem
 
        gem install aquatone
 
 
-4. Download the [latest release](https://github.com/michenriksen/aquatone/releases/latest) of Aquatone for your operating system. 
+4. Update Aquatone from Git 
 
-5. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
+       cd /root && git clone https://github.com/michenriksen/aquatone.git
+
 #
 #
 #
