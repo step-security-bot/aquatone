@@ -32,7 +32,6 @@ Execute this one to fix the error
 
        gem install aquatone
 
-
 4. Update Aquatone from Git 
 
        cd /root && git clone https://github.com/michenriksen/aquatone.git
