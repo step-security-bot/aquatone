@@ -34,7 +34,8 @@ Execute this one to fix the error
 
 4. Update Aquatone from Git 
 
-       cd /root && git clone https://github.com/michenriksen/aquatone.git
+       cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone && npm install -g npm-check-updates
+
 
 #
 #
