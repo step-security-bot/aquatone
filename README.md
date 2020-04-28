@@ -16,9 +16,8 @@ or
 
     apt install npm nodejs chromium-browser chromium-browser-l10n -y
 
-2. Install ruby on rails environment go to
-
-       https://gorails.com/setup/
+2. Install ruby on rails environment go to https://gorails.com/setup/
+       
        
 *Only In case that this command fail
 
@@ -28,15 +27,15 @@ Execute this one to fix the error
 
     cd /root/.rbenv/plugins/ruby-build && git pull && cd - && rbenv install 2.7.1
        
-3. Install Nokogiri       
-
-       https://nokogiri.org/tutorials/installing_nokogiri.html
+3. Install rvm go to https://rvm.io/rvm/install
        
-4. Install Aquatone Gem + Update Aquatone from Git
+4. Install Nokogiri go to https://nokogiri.org/tutorials/installing_nokogiri.html
+       
+5. Install Aquatone Gem + Update Aquatone from Git
 
        gem install aquatone && cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
 
-5. Install & upgrade nvm + npm + nodejs, specially electron & nightmare packages
+6. Install & upgrade nvm + npm + nodejs, specially electron & nightmare packages
 
        npm -v && npm install npm@latest nodejs@latest -g && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
 
