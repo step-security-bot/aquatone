@@ -38,11 +38,17 @@ Execute this one to fix the error
 
 5. Upgrade npm & nodejs
 
-       npm -v && npm install npm@latest nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g
+       npm -v && npm install npm@latest nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
 
-6. Install nvm
+6. Install electron
 
-       wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
+        npm install electron@latest -g
+        
+7. Install nightmare
+
+        npm install nightmare@latest -g
+
+       
 
 
 
