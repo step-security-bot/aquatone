@@ -8,17 +8,18 @@ Pre-requisites: npm + nvm + nodejs + go + ruby on rails environment + google chr
 
 1. Install google chromium browser
 
-    apt install npm nodejs chromium -y
+
+       apt install npm nodejs chromium -y
 # 
 or  
 
     apt install npm nodejs chromium-browser chromium-browser-l10n -y
 
-2. Install Ruby on Rails
+2. Install ruby on rails environment go to
 
        https://gorails.com/setup/
        
-In case that this command fail
+*Only In case that this command fail
 
     rbenv install 2.7.1
     
