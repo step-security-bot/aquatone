@@ -38,7 +38,11 @@ Execute this one to fix the error
 
 5. Upgrade npm & nodejs
 
-       npm install npm@latest -g && npm install nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g
+       npm -v && npm install npm@latest nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g
+
+6. Install nvm
+
+       wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version
 
 
 #
