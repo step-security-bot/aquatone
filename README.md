@@ -4,7 +4,7 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 
 ## Installation as root
 
-Pre-requisites: npm + nvm + nodejs + go + ruby on rails environment + google chromium
+Pre-requisites: npm + nvm + nodejs + go + ruby on rails environment + rbenv + google chromium
 #
 #
 1. Install google chromium browser
@@ -38,7 +38,7 @@ Execute this one to fix the error
        
 6. Install Aquatone Gem + Update Aquatone from Git
 
-       gem install aquatone && cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
+       gem install aquatone && cd /root && git clone https://github.com/michenriksen/aquatone.git && gem update aquatone && cd /root/aquatone 
 
 7. Install & upgrade nvm + npm + nodejs, specially electron & nightmare packages
 
