@@ -38,7 +38,7 @@ Execute this one to fix the error
        
 6. Install Aquatone Gem + Update Aquatone from Git
 
-       gem install aquatone && cd /root && git clone https://github.com/michenriksen/aquatone.git && gem update aquatone && cd /root/aquatone 
+       gem install aquatone && cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
 
 7. Install & upgrade nvm + npm + nodejs, specially electron & nightmare packages
 
