@@ -6,7 +6,7 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 
 Pre-requisites: npm + nvm + nodejs + go + ruby on rails environment + google chromium
 
-2. Install google chromium browser
+1. Install google chromium browser
 
     apt install npm nodejs chromium -y
 # 
