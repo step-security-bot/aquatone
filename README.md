@@ -170,7 +170,7 @@ aquatone-gather will look for hosts.json and open_ports.txt in the given domain'
 ## Tuning
 Like aquatone-discover and aquatone-scan, you can make the gathering more or less aggressive with the --threads option which accepts a number of threads for concurrent requests. The default number of threads is 5.
     
-    aquatone-gather --domain example.com --threads 25
+    aquatone-gather --domain example.com -t 37 -s 5 -j 37
 
 As aquatone-gather is interacting with web services, it can be picked up by intrusion detection systems. While it will attempt to lessen the risk of detection by randomising hosts and ports, you can tune the stealthiness more with the --sleep and --jitter options which work just like the similarly named options for aquatone-discover. Keep in mind that setting the --sleep option will force the number of threads to one.
 
