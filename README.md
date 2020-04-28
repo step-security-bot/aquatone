@@ -181,6 +181,12 @@ html/: Contains text files with HTML response bodies from each web page
 screenshots/: Contains PNG images of how each web page looks like in a browser
 report/ Contains report files in HTML displaying the gathered information for easy analysis
 
+## Takeover
+Now to find vulnerable Subdomain type
+
+    aquatone-takeover --domain yourdomain.com -t 37 -s 5 -j 37
+
+If any subdomain is vulnerable it will display cname and etc
 
 #
 #
