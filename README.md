@@ -32,9 +32,13 @@ Execute this one to fix the error
 
        gem install aquatone
 
-4. Update Aquatone from Git 
+4. Update Aquatone from Git
 
-       cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone && npm install -g npm-check-updates
+       cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
+
+5. Upgrade npm
+
+       npm install -g npm-check-updates && ncu && ncu -u && ncu -g
 
 
 #
