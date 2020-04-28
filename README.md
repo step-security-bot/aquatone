@@ -38,7 +38,7 @@ Execute this one to fix the error
 
 5. Upgrade npm
 
-       npm install -g npm-check-updates && ncu && ncu -u && ncu -g
+       npm install npm@latest -g && npm install nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g
 
 
 #
