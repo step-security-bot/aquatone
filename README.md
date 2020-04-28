@@ -39,9 +39,9 @@ Execute this one to fix the error
 
        cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
 
-6. Install & upgrade npm & nodejs, specially electron & nightmare packages
+6. Install & upgrade nvm + npm + nodejs, specially electron & nightmare packages
 
-       npm -v && npm install npm@latest nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root
+       npm -v && npm install npm@latest nodejs@latest -g && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
 
 #
 #
