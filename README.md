@@ -4,7 +4,9 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 
 ## Installation
 
-Pre-Requisite: NPM + GO + Ruby on Rails environment +  [Google Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/getting-involved/download-chromium) browser -- **Note:** Google Chrome is currently giving unreliable results when running in *headless* mode, so it is recommended to install Chromium for the best results.
+Pre-requisites: npm + nvm + nodejs + go + ruby on rails environment + google chromium
+
+2. Install google chromium browser
 
     apt install npm nodejs chromium -y
 # 
@@ -12,7 +14,7 @@ or
 
     apt install npm nodejs chromium-browser chromium-browser-l10n -y
 
-1. Install Ruby on Rails
+2. Install Ruby on Rails
 
        https://gorails.com/setup/
        
@@ -24,27 +26,27 @@ Execute this one to fix the error
 
     cd /root/.rbenv/plugins/ruby-build && git pull && cd - && rbenv install 2.7.1
        
-2. Install Nokogiri       
+3. Install Nokogiri       
 
        https://nokogiri.org/tutorials/installing_nokogiri.html
        
-3. Install Aquatone Gem
+4. Install Aquatone Gem
 
        gem install aquatone
 
-4. Update Aquatone from Git
+5. Update Aquatone from Git
 
        cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
 
-5. Upgrade npm & nodejs
+6. Upgrade npm & nodejs
 
        npm -v && npm install npm@latest nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
 
-6. Install electron
+7. Install electron
 
         npm install electron@latest -g
         
-7. Install nightmare
+8. Install nightmare
 
         npm install nightmare@latest -g
 
