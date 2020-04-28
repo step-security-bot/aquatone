@@ -36,7 +36,7 @@ Execute this one to fix the error
 
        cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
 
-5. Upgrade npm
+5. Upgrade npm & nodejs
 
        npm install npm@latest -g && npm install nodejs@latest -g && npm install -g npm-check-updates && ncu && ncu -u && ncu -g
 
