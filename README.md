@@ -45,11 +45,11 @@ Execute this one to fix the error
 
 7. Install electron
 
-        npm install electron@latest -g
+       npm install electron@latest -g
         
 8. Install nightmare
 
-        npm install nightmare@latest -g
+       npm install nightmare@latest -g
 
        
 
