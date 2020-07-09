@@ -42,7 +42,7 @@ Execute this one to fix the error
 
 7. Install & upgrade nvm + npm + nodejs, specially electron & nightmare packages
 
-       npm init -y && npm -v && npm install nvm@latest npm@latest nodejs@latest -g && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
+       apt install npm && npm init -y && npm -v && npm install nvm@latest npm@latest nodejs@latest -g && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
 
 #
 #
