@@ -46,7 +46,7 @@ http://nvm.sh/
 
 Upgrade npm + nodejs, specially electron & nightmare packages
 
-    apt install aptitude -y && aptitude install npm && npm init -y && npm -v && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
+    apt install aptitude -y && aptitude install npm && npm init -y && npm -v && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install && gem install aquatone
 
 #
 #
