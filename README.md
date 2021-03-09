@@ -46,7 +46,7 @@ http://nvm.sh/
 
 Upgrade npm + nodejs, specially electron & nightmare packages
 
-       apt install npm && npm init -y && npm -v && npm@latest nodejs@latest -g && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
+       apt install aptitude -y && aptitude install nsigth-compute npm && npm init -y && npm -v && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
 
 #
 #
