@@ -40,9 +40,13 @@ Execute this one to fix the error
 
        gem install aquatone && cd /root && git clone https://github.com/michenriksen/aquatone.git && cd /root/aquatone 
 
-7. Install & upgrade nvm + npm + nodejs, specially electron & nightmare packages
+7. Install NVM
 
-       apt install npm && npm init -y && npm -v && npm install nvm@latest npm@latest nodejs@latest -g && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
+http://nvm.sh/
+
+Upgrade npm + nodejs, specially electron & nightmare packages
+
+       apt install npm && npm init -y && npm -v && npm@latest nodejs@latest -g && npm install electron@latest nightmare@latest -g --unsafe-perm=true --allow-root && source ~/.nvm/nvm.sh && npm install -g npm-check-updates && ncu && ncu -u && ncu -g && wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh && export NVM_DIR="$HOME/.nvm" && export NVM_DIR="$HOME/.nvm" && nvm install v10.20.1 && nvm use system && nvm ls && nvm --version && npm install
 
 #
 #
